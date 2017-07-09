@@ -1,0 +1,42 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+
+# Setup
+title:            DEC
+fullTitle: Dynamic Engineering Company
+tagline:          'Engineering the future.'
+description:      'The official blog of Dynamic Engineering Company. Join us as we engineer the future and share with you meaningful insights. Reach out to us <a href="">here.</a>'
+url:              dynamicengineering.github.io
+baseurl:          /
+
+author:
+  name:           'Deepak Pathania'
+  url:            https://deepakpathania.tech
+
+paginate:         3
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+gems:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-paginate
+
+whitelist:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:          2.1.0
+
+
+github:
+  repo:           https://github.com/dynamicengineering/dynamicengineering.github.io
