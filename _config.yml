@@ -13,6 +13,7 @@ tagline:          'Engineering the future.'
 description:      'The official blog of Dynamic Engineering Company. Join us as we engineer the future and share with you meaningful insights. Reach out to us <a href="">here.</a>'
 url:              dynamicengineering.github.io
 baseurl:          /
+loadurl : https://dynamicengineering.github.io/
 
 author:
   name:           'Deepak Pathania'
